@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer Aura Ring -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#124568DC" />
+        </shape>
+    </item>
+    <!-- Middle Aura Ring -->
+    <item
+        android:bottom="14dp"
+        android:left="14dp"
+        android:right="14dp"
+        android:top="14dp">
+        <shape android:shape="oval">
+            <solid android:color="#204568DC" />
+        </shape>
+    </item>
+    <!-- Inner Core Circle -->
+    <item
+        android:bottom="28dp"
+        android:left="28dp"
+        android:right="28dp"
+        android:top="28dp">
+        <shape android:shape="oval">
+            <solid android:color="#354568DC" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/ivRecentIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="7dp"
+        android:background="@drawable/bg_avatar_squircle"
+        android:backgroundTint="@color/primary_light"
+        android:src="@drawable/ic_location_pin"
+        app:tint="@color/primary" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRecentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            tools:text="Classroom Entered" />
+
+        <TextView
+            android:id="@+id/tvRecentSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            tools:text="CS Lab 101 • Normal → Silent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRecentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:textColor="@color/text_tertiary"
+        tools:text="10:30 AM" />
+</LinearLayout>

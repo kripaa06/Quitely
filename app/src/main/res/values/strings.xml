@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quitely</string>
+    <string name="app_tagline">Silence when you need it. Sound when you don\'t.</string>
+    <string name="app_description">Smart Sound Automation</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_zones">Silent Zones</string>
+    <string name="nav_schedules">Schedules</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Sound Modes -->
+    <string name="mode_normal">Normal Mode</string>
+    <string name="mode_vibrate">Vibrate Mode</string>
+    <string name="mode_silent">Silent Mode</string>
+    <string name="mode_disabled">Automation Paused</string>
+
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_disable">Disable</string>
+    <string name="action_clear_history">Clear History</string>
+</resources>

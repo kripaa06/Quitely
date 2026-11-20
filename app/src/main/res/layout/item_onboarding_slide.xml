@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:cardCornerRadius="70dp"
+        app:cardElevation="4dp"
+        app:strokeColor="@color/primary_light"
+        app:strokeWidth="4dp"
+        app:cardBackgroundColor="@color/card_background">
+
+        <ImageView
+            android:id="@+id/ivSlideIcon"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_location_pin"
+            app:tint="@color/primary" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tvSlideTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/text_primary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:text="Automatic Silent Zones" />
+
+    <TextView
+        android:id="@+id/tvSlideDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp"
+        android:lineSpacingExtra="4dp"
+        android:gravity="center"
+        tools:text="Quitely automatically detects when you enter your registered classrooms, libraries, or exam halls and activates silent mode instantly." />
+</LinearLayout>

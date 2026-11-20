@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="primary">#4568DC</color>
+    <color name="primary_dark">#314BB2</color>
+    <color name="primary_light">#EEF2FF</color>
+    <color name="secondary">#7B61C9</color>
+    <color name="secondary_light">#F3F0FC</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F7F8FC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E8ECF4</color>
+    <color name="divider">#EDF0F7</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#1D2433</color>
+    <color name="text_secondary">#777F91</color>
+    <color name="text_tertiary">#A0A7B5</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Status & Sound States -->
+    <color name="state_normal">#10B981</color>
+    <color name="state_normal_dark">#059669</color>
+    <color name="state_normal_light">#ECFDF5</color>
+    <color name="state_normal_border">#A7F3D0</color>
+    <color name="state_vibrate">#0EA5E9</color>
+    <color name="state_vibrate_dark">#0284C7</color>
+    <color name="state_vibrate_light">#F0F9FF</color>
+    <color name="state_vibrate_border">#BAE6FD</color>
+    <color name="state_silent">#8B5CF6</color>
+    <color name="state_silent_dark">#6D28D9</color>
+    <color name="state_silent_light">#F5F3FF</color>
+    <color name="state_silent_border">#DDD6FE</color>
+    <color name="state_disabled">#94A3B8</color>
+    <color name="state_disabled_light">#F1F5F9</color>
+    <color name="state_disabled_border">#E2E8F0</color>
+
+    <!-- Gradients & Geometry -->
+    <color name="hero_gradient_start">#FFFFFF</color>
+    <color name="hero_gradient_end">#F8FAFC</color>
+    <color name="glow_silent">#258B5CF6</color>
+    <color name="glow_vibrate">#250EA5E9</color>
+    <color name="glow_normal">#2510B981</color>
+    <color name="card_surface_elevated">#FFFFFF</color>
+    <color name="tag_bg_neutral">#F1F5F9</color>
+
+    <!-- Alerts / System -->
+    <color name="danger">#E53E3E</color>
+    <color name="danger_light">#FFF5F5</color>
+    <color name="warning">#DD6B20</color>
+    <color name="warning_light">#FFFAF0</color>
+    <color name="success">#38A169</color>
+
+    <!-- Basics -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple_light">#1F4568DC</color>
+</resources>
